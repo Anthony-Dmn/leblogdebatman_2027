@@ -88,8 +88,6 @@ class BlogController extends AbstractController
             10
         );
 
-        dump($articles);
-
         return $this->render('blog/publication_list.html.twig', [
             'articles' => $articles,
         ]);
